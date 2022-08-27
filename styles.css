@@ -1,0 +1,63 @@
+
+/* carousel */
+.carousel-item {
+    height: 70vh;
+    min-height: 400px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    top: 2rem;
+}
+
+
+/* Courses button  */
+
+.courses-btn {
+    text-align: center;
+    margin: auto;
+    padding: 60px;
+}
+
+/* reg button  */
+.reg-btn {
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 0px;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* footer  */
+.footer {
+    background-color: #3e4551;
+}
